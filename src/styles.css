@@ -122,10 +122,10 @@
   --font-body-active: "Arial", "Helvetica", sans-serif;
 }
 
-/* Premium explicit (matches root, included for completeness) */
+/* Premium explicit (white/grey) */
 [data-phase="premium"] {
-  --background: oklch(0.16 0.005 270);
-  --foreground: oklch(0.98 0 0);
+  --background: oklch(0.98 0 0);
+  --foreground: oklch(0.2 0 0);
 }
 
 @layer base {
