@@ -62,8 +62,13 @@ export function Pricing() {
                 </div>
                 <span className="text-2xl font-black">{t.price}</span>
               </div>
-              <button
-                className="w-full rounded-full py-3 text-sm font-bold transition-transform active:scale-[0.98]"
+              <a
+                href="#contact"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+                }}
+                className="block w-full rounded-full py-3 text-center text-sm font-bold transition-transform active:scale-[0.98]"
                 style={{
                   background: t.popular ? "var(--color-phase)" : "var(--color-foreground)",
                   color: t.popular
@@ -72,7 +77,7 @@ export function Pricing() {
                 }}
               >
                 Select Mode
-              </button>
+              </a>
             </div>
           ))}
         </div>
