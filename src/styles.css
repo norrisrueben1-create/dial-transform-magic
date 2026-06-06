@@ -82,22 +82,22 @@
   --font-body-active: "Inter", system-ui, sans-serif;
 }
 
-/* Phase: 90s — gaudy chaos */
+/* Phase: 90s — warm grey */
 [data-phase="retro"] {
-  --background: oklch(0.32 0.27 320); /* hot magenta */
-  --foreground: oklch(0.98 0.2 105); /* electric yellow */
-  --surface: oklch(0.38 0.25 320);
-  --surface-2: oklch(0.45 0.22 200);
-  --card: oklch(0.38 0.25 320);
-  --card-foreground: oklch(0.98 0.2 105);
-  --muted: oklch(0.45 0.22 200);
-  --muted-foreground: oklch(0.95 0.18 200);
-  --border: oklch(0.98 0.2 105 / 50%);
-  --accent: oklch(0.85 0.25 195); /* cyan */
-  --accent-foreground: oklch(0.2 0.1 320);
-  --ring: oklch(0.85 0.25 195);
-  --phase: oklch(0.85 0.25 195);
-  --phase-soft: oklch(0.85 0.25 195 / 0.18);
+  --background: oklch(0.94 0.01 60);
+  --foreground: oklch(0.25 0.02 60);
+  --surface: oklch(0.9 0.01 60);
+  --surface-2: oklch(0.85 0.015 60);
+  --card: oklch(0.9 0.01 60);
+  --card-foreground: oklch(0.25 0.02 60);
+  --muted: oklch(0.85 0.015 60);
+  --muted-foreground: oklch(0.5 0.02 60);
+  --border: oklch(0.25 0.02 60 / 12%);
+  --accent: oklch(0.4 0.02 60);
+  --accent-foreground: oklch(0.98 0 0);
+  --ring: oklch(0.4 0.02 60);
+  --phase: oklch(0.4 0.02 60);
+  --phase-soft: oklch(0.4 0.02 60 / 0.08);
   --font-display-active: "Bungee", "Impact", sans-serif;
   --font-body-active: "Courier Prime", "Courier New", monospace;
 }
