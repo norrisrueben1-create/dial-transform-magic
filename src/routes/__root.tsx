@@ -83,13 +83,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "An interactive web design studio. Twist the Webify Dial and watch your site evolve from 90s chaos to premium modern.",
       },
-      { property: "og:title", content: "Webify101 — Turn the dial" },
+      { property: "og:title", content: "Webify101 — Turn the dial on your web presence" },
       {
         property: "og:description",
         content: "Interactive web design studio. Drag the dial. Change the world.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Webify101 — Turn the dial on your web presence" },
+      { name: "description", content: "Stop losing traffic. Webify101 transforms your digital presence into a 24/7 revenue driver with tailored web solutions that boost leads and conversion rates." },
+      { property: "og:description", content: "Stop losing traffic. Webify101 transforms your digital presence into a 24/7 revenue driver with tailored web solutions that boost leads and conversion rates." },
+      { name: "twitter:description", content: "Stop losing traffic. Webify101 transforms your digital presence into a 24/7 revenue driver with tailored web solutions that boost leads and conversion rates." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/33ca1311-ca3a-41e6-b3c1-cc66c238e0ca" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/33ca1311-ca3a-41e6-b3c1-cc66c238e0ca" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
