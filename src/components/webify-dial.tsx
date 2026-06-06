@@ -123,7 +123,7 @@ export function WebifyDial() {
         <motion.div
           animate={{ rotate: -angle }}
           transition={{ type: "spring", stiffness: 240, damping: 26, mass: 0.6 }}
-          className="absolute inset-8 flex flex-col items-center justify-center rounded-full border border-white/5 bg-neutral-950/80"
+          className="absolute inset-8 flex flex-col items-center justify-center rounded-full border bg-background/80"
         >
           <span className="font-mono text-[10px] tracking-[0.3em] text-muted-foreground uppercase">
             Phase
