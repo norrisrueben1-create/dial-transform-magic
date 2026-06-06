@@ -101,11 +101,12 @@ export function WebifyDial() {
         onPointerCancel={onPointerUp}
         animate={{ rotate: angle, scale: dragging ? 0.97 : 1 }}
         transition={{ type: "spring", stiffness: 240, damping: 26, mass: 0.6 }}
-        className="relative size-64 cursor-grab touch-none rounded-full border-4 border-neutral-800 bg-neutral-900 outline-none focus-visible:ring-2 focus-visible:ring-phase active:cursor-grabbing"
+        className="relative size-64 cursor-grab touch-none rounded-full border-4 outline-none focus-visible:ring-2 focus-visible:ring-phase active:cursor-grabbing"
         style={{
           boxShadow: "var(--shadow-knob)",
+          borderColor: "var(--color-border)",
           background:
-            "radial-gradient(circle at 30% 25%, rgba(255,255,255,0.06), transparent 55%), linear-gradient(160deg, #1f1f22, #0a0a0b)",
+            "radial-gradient(circle at 30% 25%, rgba(0,0,0,0.03), transparent 55%), linear-gradient(160deg, var(--color-surface-2), var(--color-surface))",
         }}
       >
         {/* Indicator dot */}
